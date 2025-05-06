@@ -5,8 +5,8 @@ from servo import Servo  # si tu as sauvegardé la classe dans un fichier servo.
 
 # Initialisation des pins
 capteur_pin = Pin(28, Pin.IN)
-led_verte = Pin(15, Pin.OUT)
-led_rouge = Pin(14, Pin.OUT)
+led_verte = Pin(17, Pin.OUT)
+led_rouge = Pin(18, Pin.OUT)
 
 # Initialisation du servo sur GPIO16
 servo = Servo(16)
